@@ -1,0 +1,89 @@
+body{
+    counter-reset: mycounter;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+#one{
+    counter-increment: mycounter;
+    /* margin-top: 20px; */
+    font-family: Arial, sans-serif;
+}
+#one::before{
+    content:counter(mycounter)".";
+    font-weight: bold;
+    color: #986969;
+}
+
+.main{
+    counter-reset: mycounter1;
+}
+#field1{
+    counter-increment: mycounter1; 
+}
+#field1::before{
+     content: "1."counter(mycounter1)".";
+     color:rgb(17, 0, 255);
+}
+#field2{
+    counter-increment: mycounter2;
+}
+#field2::before{
+    content: "2."counter(mycounter2)".";
+    color:rgb(17, 0, 255);
+}
+#field3{
+    counter-increment: mycounter3;
+}
+#field3::before{
+    content: "3."counter(mycounter3)".";
+    color:rgb(17, 0, 255);
+}
+#field4{
+    counter-increment: mycounter4;
+}
+#field4::before{
+    content: "4." counter(mycounter4)".";
+    color:rgb(17, 0, 255);
+}
+#field5{
+    counter-increment: mycounter5;
+}
+#field5::before{
+    content: "5." counter(mycounter5)".";
+    color:rgb(17, 0, 255);
+}
+#field6{
+    counter-increment: mycounter6;
+}
+#field6::before{
+    content: "6." counter(mycounter6)".";
+    color:rgb(17, 0, 255);
+}
+#field7{
+    counter-increment: mycounter7;
+}
+#field7::before{
+    content: "7." counter(mycounter7)".";
+    color:rgb(17, 0, 255);
+}
+#field8{
+    counter-increment: mycounter8;
+}
+#field8::before{
+    content: "8." counter(mycounter8)".";
+    color:rgb(17, 0, 255);
+}
+#field9{
+    counter-increment: mycounter9;
+}
+#field9::before{
+    content: "9." counter(mycounter9)".";
+    color:rgb(17, 0, 255);
+}
+#field10{
+    counter-increment: mycounter10;
+}
+#field10::before{
+    content: "10." counter(mycounter10)".";
+    color:rgb(17, 0, 255);
+}
